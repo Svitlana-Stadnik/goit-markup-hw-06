@@ -768,6 +768,7 @@ button {
     }
 
     .portfolio-img-text {
+        display: block;
         background-color: #4d5ae5;
         color: #F4F4FD;
         position: absolute;
