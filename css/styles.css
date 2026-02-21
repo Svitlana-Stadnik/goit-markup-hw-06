@@ -801,12 +801,16 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+    .container {
+        max-width: 652px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+    
     .footer-wrapper {
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
-        padding-left: 108px;
-        padding-right: 108px;
 
         align-items: baseline;
         align-content: flex-start;
@@ -869,6 +873,10 @@ button {
         margin-bottom: 0;
         margin-right: 80px;
     } 
+
+    .footer-subscribe {
+        margin-left: auto;
+    }
 }
 
 
@@ -1183,8 +1191,10 @@ button {
     margin-bottom: auto;
 }
 
-.mobil-menu-item {
-    padding-bottom: 40px;
+.mobil-menu-list {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .mobil-menu-link {
