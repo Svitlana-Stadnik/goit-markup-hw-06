@@ -665,6 +665,7 @@ button {
 @media screen and (min-width: 1158px) {
     .team-container {
         padding-left: 0;
+        padding-right: 0;
     }
     
     .team-menu-list {
@@ -743,7 +744,7 @@ button {
     }
 
     .portfolio-menu-item {
-        width: calc((100% - 78px) / 3); 
+        width: calc((100% - 48px) / 3); 
         box-shadow: none;
         position: relative;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -928,7 +929,12 @@ button {
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
-        margin-left: 108px;
+        padding-left: 108px;
+        padding-right: 108px;
+
+        align-items: baseline;
+        align-content: flex-start;
+        row-gap: 72px;
     }
 
     .footer-info-wrapper {
@@ -939,10 +945,12 @@ button {
 
     .footer-text {
         text-align: left;
+        margin-bottom: 16px;
     }
 
     .footer-social-wrapper {
         align-items: flex-start;
+        margin-bottom: 0;
     }
 
     .footer-social {
@@ -950,10 +958,8 @@ button {
     }
 
     .footer-form-row {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
         flex-direction: row;
+        justify-content: start;
         gap: 24px;
         margin-left: 0;
     }
@@ -961,6 +967,7 @@ button {
     .footer-input {
         width: 264px;
         margin-bottom: 0;
+        margin-left: 0;
     }
 }
 
@@ -970,11 +977,11 @@ button {
     }
 
     .footer-wrapper {
-        align-items: baseline;
-        flex-direction: row;
         flex-wrap: nowrap;
         margin-left: auto;
         column-gap: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .footer-info-wrapper {
