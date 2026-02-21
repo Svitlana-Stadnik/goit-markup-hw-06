@@ -691,7 +691,8 @@ button {
     color: #F4F4FD;
 }
 
-.footer-text {
+.footer-text.media,
+.footer-text.subscribe {
     font-weight: 500;
     color: #fff;
     margin-bottom: 16px;
