@@ -802,7 +802,7 @@ button {
 
 @media screen and (min-width: 768px) {
     .footer .container {
-        max-width: 652px;
+        max-width: 584px;
     }
     
     .footer-wrapper {
@@ -1159,6 +1159,11 @@ button {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+}
+
+.container.mobil-menu-container {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .mobil-menu-container {
