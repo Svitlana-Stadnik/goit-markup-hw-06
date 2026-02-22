@@ -393,7 +393,7 @@ button {
     .features-menu-list {
         flex-wrap: nowrap;
         display: flex;
-        flex-basis: calc((100% - 72px) / 4);
+        gap: 24px;
     }
 
     .features-icon {
@@ -528,6 +528,7 @@ button {
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
+        row-gap: 64px;
     }
 
     .team-menu-item {
